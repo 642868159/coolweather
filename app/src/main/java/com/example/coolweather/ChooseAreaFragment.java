@@ -32,6 +32,7 @@ import okhttp3.Response;
 
 /**
  * Created by 周思全 on 2017/9/22.
+ * 需要点击之后才能加载
  */
 
 public class ChooseAreaFragment extends Fragment {
