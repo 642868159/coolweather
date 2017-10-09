@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         if(prefs.getString("weather",null)!=null){//传入的键找不到对应的值返回第二个参数！！
             Intent intent = new Intent(this, WeatherActivity.class);
             startActivity(intent);
+            finish();
         }
     }
 }
